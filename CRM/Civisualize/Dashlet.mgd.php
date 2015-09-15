@@ -9,6 +9,7 @@ return array(
       'name' => 'dataviz_contact',
       'label' => 'Dataviz of contacts',
       'url' => CRM_Utils_System::url('civicrm/dataviz/contacts', 'snippet=4'),
+      'is_fullscreen' => 0,
     ),
   ),
   1 => array(
@@ -19,6 +20,7 @@ return array(
       'name' => 'dataviz_event',
       'label' => 'Dataviz of events',
       'url' => CRM_Utils_System::url('civicrm/dataviz/events', 'snippet=4'),
+      'is_fullscreen' => 0,
     ),
   ),
   2 => array(
@@ -29,6 +31,7 @@ return array(
       'name' => 'dataviz_contribute',
       'label' => 'Dataviz of contributions',
       'url' => CRM_Utils_System::url('civicrm/dataviz/contribute', 'snippet=4'),
+      'is_fullscreen' => 0,
     ),
   ),
   3 => array(
@@ -39,6 +42,7 @@ return array(
       'name' => 'dataviz_member',
       'label' => 'Dataviz of memberships',
       'url' => CRM_Utils_System::url('civicrm/dataviz/member', 'snippet=4'),
+      'is_fullscreen' => 0,
     ),
   ),
   4 => array(
@@ -49,6 +53,7 @@ return array(
       'name' => 'dataviz_historicalMember',
       'label' => 'Dataviz of historical memberships',
       'url' => CRM_Utils_System::url('civicrm/dataviz/historicalMember', 'snippet=4'),
+      'is_fullscreen' => 0,
     ),
   ),
 );
